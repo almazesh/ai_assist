@@ -65,11 +65,9 @@ jspm_packages/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
-public
 
 # Storybook build outputs
 .out
@@ -111,8 +109,6 @@ docker-compose.override.yml
 *.dockerignore
 
 # Build outputs
-build/
-dist/
 out/
 EOF
 
@@ -123,8 +119,6 @@ node_modules/
 npm-debug.log*
 
 # Build outputs
-dist/
-build/
 
 # Environment variables
 .env
